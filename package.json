@@ -1,0 +1,30 @@
+{
+  "name": "razzle-examples-jest",
+  "version": "0.7.3",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "test": "razzle test --env=jsdom",
+    "build": "razzle build",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.2",
+    "history": "^4.6.3",
+    "razzle": "0.7.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.0.0",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
+    "serialize-javascript": "^1.4.0",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "razzle": "^0.7.3",
+    "react-test-renderer": "^15.4.2"
+  }
+}
